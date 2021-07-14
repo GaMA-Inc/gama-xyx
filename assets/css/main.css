@@ -858,7 +858,7 @@ button,
   -webkit-transition: opacity 0.5s ease-in-out;
   -ms-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  bottom: 4em;
+  bottom: 2em;
   color: rgba(255, 255, 255, 0.5);
   left: 4em;
   opacity: 0.5;
@@ -885,6 +885,10 @@ button,
     opacity: 1; }
   #footer > :last-child {
     margin-bottom: 0; }
+  @media screen and (max-width: 1920px) {
+    #footer {
+      bottom: 2em;
+      left: 3.5em; } }
   @media screen and (max-width: 1680px) {
     #footer {
       bottom: 3.5em;
