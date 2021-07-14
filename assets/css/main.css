@@ -61,6 +61,10 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
+.highlight{
+  font-family: "Comfortaa", sans-serif;
+  color: #baf2e1;
+}
 /* Basic */
 @-ms-viewport {
   width: device-width; }
@@ -736,10 +740,10 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  background-color: #1cb495;
+  background-color: #baf2e1;
   border-radius: 6px;
   border: 0;
-  color: #ffffff !important;
+  color: #363537 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
@@ -754,13 +758,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #1fcaa7; }
+    background-color: #E15A97; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: #199e83; }
+    background-color: #baf2e1; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -782,6 +786,7 @@ button,
 /* Header */
 #header h1 {
   font-size: 3.25em;
+  color: #baf2e1;
   margin: 0 0 0.55em 0; }
 
 #header p {
@@ -800,7 +805,12 @@ button,
 @media screen and (max-width: 480px) {
   #header {
     margin: 0 0 1em 0; } }
+#logo {
 
+  max-width: 20%;
+  padding: 1em;
+  height: auto;
+}
 /* Signup Form */
 #signup-form {
   display: -moz-flex;
