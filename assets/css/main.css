@@ -759,6 +759,7 @@ button,
   display: inline-block;
   font-weight: 700;
   height: 2.75em;
+  z-index: 5 !important;
   line-height: 2.75em;
   padding: 0 1.125em;
   text-align: center;
@@ -829,6 +830,7 @@ button,
     max-width: 50%; } }
 /* Signup Form */
 #signup-form {
+  z-index: 5 !important;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -872,6 +874,7 @@ button,
   bottom: 0em;
   color: rgba(255, 255, 255, 0.5);
   left: 4em;
+  z-index: 5 !important;
   opacity: 0.5;
   position: absolute; }
   #footer .icons {
