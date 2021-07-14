@@ -60,7 +60,18 @@ input, select, textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none; }
-
+.front{
+  z-index: auto;
+}
+.backdrop{
+  height: 100%;
+  left: 0;
+  opacity: 0.375;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 .highlight{
   font-family: "Comfortaa", sans-serif;
   color: #baf2e1;
