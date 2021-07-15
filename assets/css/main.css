@@ -873,7 +873,9 @@ button,
   transition: opacity 0.5s ease-in-out;
   bottom: 0em;
   color: rgba(255, 255, 255, 0.5);
-  left: 4em;
+  left: 0;
+  right: 0;
+  text-align: center;
   z-index: 5 !important;
   opacity: 0.5;
   position: absolute; }
