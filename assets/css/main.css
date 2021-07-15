@@ -911,11 +911,11 @@ button,
       left: 3.5em; } }
   @media screen and (max-width: 736px) {
     #footer {
-      bottom: 2em;
+      bottom: 0em;
       left: 2em; } }
   @media screen and (max-width: 360px) {
     #footer {
-      bottom: 1.25em;
+      bottom: 0em;
       left: 1.25em; } }
   @media screen and (max-height: 640px) {
     #footer {
