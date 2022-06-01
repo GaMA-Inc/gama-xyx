@@ -385,7 +385,7 @@ hr {
 section.special, article.special {
   text-align: center; }
 header{
-  margin-bottom:5em;
+  padding-bottom:5em;
 }
 header p {
   color: rgba(255, 255, 255, 0.5);
