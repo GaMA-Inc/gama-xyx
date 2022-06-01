@@ -94,7 +94,7 @@ input, select, textarea {
   width: device-width; }
 
 body {
-  -ms-overflow-style: scroll; }
+  -ms-overflow-style: scrollbar; }
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -384,9 +384,7 @@ hr {
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
-header{
-  padding-bottom:5em;
-}
+
 header p {
   color: rgba(255, 255, 255, 0.5);
   position: relative;
