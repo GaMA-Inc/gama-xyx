@@ -783,7 +783,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #E15A97; 
+    background-color: #e40046; 
     color: #363537;}
   input[type="submit"]:active,
   input[type="reset"]:active,
